@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>md2bb web - Markdown to Steam BBcode converter.</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css"
+        />
+    </head>
+    <body>
+        <header>
+            <h1>md2bb web</h1>
+            <p>Markdown to Steam BBcode converter.</p>
+        </header>
+        <div class="container">
+            <textarea
+                id="markdown"
+                placeholder="Paste Markdown here. and click the button."
+            ></textarea>
+            <button id="convert">Convert to BBCode</button>
+            <textarea
+                id="bbcode"
+                placeholder="then, BBCode will be appear here."
+            ></textarea>
+            <script src="script.ts"></script>
+            <footer>
+                <hr />
+                <p>
+                    <a href="https://github.com/tenmihi/md2bb">md2bb</a> by
+                    <a href="https://github.com/tenmihi">tenmihi</a>.
+                </p>
+                <p>
+                    <a href="https://github.com/eai04191/md2bb-web"
+                        >md2bb web</a
+                    >
+                    by <a href="https://github.com/eai04191">eai04191</a>.
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
